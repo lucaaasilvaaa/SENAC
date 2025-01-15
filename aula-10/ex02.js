@@ -1,0 +1,6 @@
+let mat = [
+    [1,3,6],
+    [4,5,7]
+]
+
+console.log(mat)
