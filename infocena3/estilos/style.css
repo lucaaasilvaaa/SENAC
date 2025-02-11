@@ -1,0 +1,39 @@
+p {
+    color: #02290c;
+}
+
+h1 {
+    color:rgb(0, 51, 198);
+    text-align: center;
+}
+
+img {
+    height: 100px; /*altura*/
+    width: 100px; /*largura*/
+}
+
+div {
+    margin: 20px 40px 10px 30px;
+    padding-top: 10px;
+}
+
+label {
+    margin-right: 20px;
+}
+
+.diferente {
+    margin-right: 30px;
+}
+
+.largura {
+    width: 150px;
+}
+
+.botao {
+    width: 50px;
+}
+
+.limpar {
+    background-color: green;
+    color: #fff;
+}

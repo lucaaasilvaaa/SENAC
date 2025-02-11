@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+</head>
+<body>
+    <a href="../index.html">Voltar para a página principal</a>
+
+    <form method="post" 
+        action="http://localhost:82/exemplo/processa_formulario.php">
+        <div>
+            <label for="login">Login para entrar</label>
+            <input type="text" placeholder="Login" id="login" name="login" class="largura"/> 
+        </div>
+        <div>    
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" />
+        </div>
+        <div>
+            <input type="submit" value="Entrar no sistema" class="botao"/>
+            <input type="reset" value="Limpar" class="botao limpar" />            
+        </div>
+    </form>
+</body>
+</html>
